@@ -13,7 +13,8 @@ namespace CrossPlataformTest
 
                 return ConfigureApp
                     .Android
-                    .InstalledApp("com.companyname.EAXamarinApp")
+                    //.InstalledApp("com.companyname.EAXamarinApp")
+                    .ApkFile(@"C:\Users\Taurus\AppData\Local\Xamarin\Mono for Android\Archives\2018-07-04\EAXamarinApp.Android 7-04-18 11.33 AM.apkarchive\com.companyname.EAXamarinApp.apk")
                     .StartApp();
 			}
 
