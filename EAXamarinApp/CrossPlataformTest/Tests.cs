@@ -7,6 +7,7 @@ using Xamarin.UITest.Queries;
 
 namespace CrossPlataformTest
 {
+
 	[TestFixture(Platform.Android)]
 	[TestFixture(Platform.iOS)]
 	public class Tests
@@ -33,5 +34,15 @@ namespace CrossPlataformTest
 
 			Assert.IsTrue(results.Any());
 		}
-	}
+
+        [Test]
+        public void primeiroTeste()
+        {
+            app.Screenshot("Welcome screen.");
+            app.Tap(x=>x.Text("First item"));
+            app.Screenshot("Entrou");
+
+
+        }
+    }
 }
