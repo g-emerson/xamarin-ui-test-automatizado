@@ -1,0 +1,8 @@
+*.java
+EAXamarinApp/EAXamarinApp/EAXamarinApp.Android/bin/
+EAXamarinApp/EAXamarinApp/EAXamarinApp.Android/obj/
+EAXamarinApp/CrossPlataformTest/obj/
+EAXamarinApp/EAXamarinApp/EAXamarinApp/bin/
+EAXamarinApp/EAXamarinApp/EAXamarinApp/obj/
+EAXamarinApp/.vs/EAXamarinApp/v15/Server/sqlite3/storage.ide-shm
+EAXamarinApp/.vs/EAXamarinApp/v15/Server/sqlite3/storage.ide-wal
